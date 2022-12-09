@@ -1,5 +1,6 @@
-import { Typography } from '@mui/material'
 import Head from 'next/head'
+import { Typography } from '@mui/material'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -13,10 +14,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <Typography variant='h2' >Welcome MUI Working..</Typography>
-
+        <Typography variant='h3' >Verifying Production</Typography>
       </main>
-
-
     </div>
   )
 }
